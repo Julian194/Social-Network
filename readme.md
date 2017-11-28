@@ -1,7 +1,7 @@
 # Social Network "The Gym"
 
 ## Summary
-A social network project. This website is a single-page application made with React. The main goal of this app is to connect likeminded fitness enthusiasts. If someone is looking for a new workout partner or just wants to share tips and hacks about their fitness journey the can connect on this website.
+A social network project. This website is a single-page application made with React. The main goal of this app is to connect likeminded fitness enthusiasts. If someone is looking for a new workout partner or just wants to share tips and hacks about their fitness journey they can connect on this website.
 
 ## Tech Stack
 * React.js and Redux
@@ -24,12 +24,22 @@ A social network project. This website is a single-page application made with Re
 
 ![Social Network Register](social_register.png)
 
+****
+
 ![Social Network Profile](social_profile.png)
+
+****
 
 ![Social Network Friends](social_friends.png)
 
+****
+
 ![Social Network Online](social_online.png)
 
-![Social Network Register](social_register.png)
+****
+
+![Social Network User Search](social_search.png)
+
+****
 
 ![Social Network Chat](social_chat.png)
