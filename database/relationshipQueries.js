@@ -1,7 +1,7 @@
 const spicedPg = require('spiced-pg');
 const secrets = require('../secrets.json');
 
-const db = spicedPg(process.env.DATABASE_URL ||"postgres:juliankaiser:password@localhost:5432/socialnetwork");
+const db = spicedPg(`postgres:${secrets.dbuser}:${secrets.dbpassword}@localhost:5432/socialnetwork`);
 
 const PENDING = 1,
       ACCEPTED = 2,

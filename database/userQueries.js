@@ -1,7 +1,7 @@
 const spicedPg = require('spiced-pg');
 const secrets = require('../secrets.json');
 
-const db = spicedPg(process.env.DATABASE_URL ||"postgres:juliankaiser:password@localhost:5432/socialnetwork");
+const db = spicedPg(`postgres:${secrets.dbuser}:${secrets.dbpassword}@localhost:5432/socialnetwork`);
 
 module.exports.addUser = function(first, last, email, password) {
   const insert = "INSERT INTO users (first, last, email, password) VALUES ($1,$2,$3,$4) RETURNING id"
