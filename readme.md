@@ -30,6 +30,10 @@ A social network project. This website is a single-page application made with Re
 
 ****
 
+![Social Network Fried](social_friend.png)
+
+****
+
 ![Social Network Friends](social_friends.png)
 
 ****
