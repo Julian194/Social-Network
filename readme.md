@@ -38,10 +38,6 @@ A social network project. This website is a single-page application made with Re
 
 ****
 
-![Social Network Online](social_online.png)
-
-****
-
 ![Social Network User Search](social_search.png)
 
 ****
